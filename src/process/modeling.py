@@ -5,7 +5,7 @@ from ..utils import log as logger
 
 
 class Train(object):
-    def __init__(self, step, epochs, verbose=True):
+    def __init__(self, step, epochs, verbose=True): # step = model
         self.epochs = epochs
         self.step = step
         self.history = History()
